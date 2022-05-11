@@ -1,0 +1,7 @@
+events:
+  - key: user.confirmation
+    name: User confirmation
+    template: templates/user_confirmation.tpl
+  - key: status.order
+    name: Status order
+    template: templates/status_order.tpl
