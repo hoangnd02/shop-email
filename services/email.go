@@ -72,8 +72,8 @@ func (SendEmail) Process() {
 }
 
 func SendEmailService(message []byte, toAddress string) (response bool, err error) {
-	fromAddress := "nghiemdanghoang@gmail.com"
-	fromEmailPassword := "14124869"
+	fromAddress := "email@gmail.com"
+	fromEmailPassword := "password"
 	smtpServer := "smtp.gmail.com"
 	smptPort := "587"
 
